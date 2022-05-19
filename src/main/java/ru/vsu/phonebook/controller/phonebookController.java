@@ -29,7 +29,7 @@ public class phonebookController {
         return ResponseEntity.ok(phonebookService.getALL());
     }
 
-    // TODO: 19.05.2022 write implemet method getById
+    // TODO: 19.05.2022 write implement method getById
 
     @PostMapping
     public ResponseEntity<Abonent> create(@RequestBody Abonent abonent){

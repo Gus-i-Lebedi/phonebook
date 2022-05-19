@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "abonents_db")
+@Table(name = "abonents")
 public class Abonent {
 
     @Id
